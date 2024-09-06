@@ -1,9 +1,7 @@
----
-
+# Лучше перенести в другой файл
+# file: ansible/setup.yml
 - hosts: all
-  gather_facts: no
   tasks:
-
     - apt:
         name: python3-pip
         update_cache: yes
